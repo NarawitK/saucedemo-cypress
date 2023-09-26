@@ -1,0 +1,20 @@
+{
+  "name": "saucedemo-cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:open": "cypress open",
+    "cy:o:e2e:chrome": "cypress open --e2e --browser=chrome ",
+    "cy:o:e2e:ff": "cypress open --e2e --browser=firefox",
+    "cy:r:e2e:chrome": "cypress run --e2e --browser=chrome --spec=cypress/e2e/1-saucedemo-test/test.cy.js",
+    "cy:r:e2e:ff": "cypress run --e2e --browser=firefox --spec=cypress/e2e/1-saucedemo-test/test.cy.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.2.0"
+  }
+}
