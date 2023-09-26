@@ -27,7 +27,7 @@
 
 ## Optional and Note
 You can change some environment variable(s) in `cypress.config.js`
-- env : { ... }
+- env : { ... }  
 **Please note that `testIsolation` set to `false` because this test run as user scenario.**
 
 
